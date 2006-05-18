@@ -1,18 +1,23 @@
-Summary:	A python library for manipulating kickstart files
+Summary:	A Python library for manipulating kickstart files
+Summary(pl):	Pythonowa biblioteka do obróbki plików kickstart
 Name:		python-kickstart
 Version:	0.23
 Release:	1
+License:	GPL
+Group:		Libraries/Python
 Source0:	pykickstart-%{version}.tar.gz
 # Source0-md5:	aa52b2e3ad0bb422095f14029d527503
-License:	GPL
-Group:		Libraries
 BuildRequires:	python-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The pykickstart package is a python library for manipulating kickstart
+The pykickstart package is a Python library for manipulating kickstart
 files.
+
+%description -l pl
+Pakiet pykickstart to pythonowa biblioteka do obróbki plików
+kickstart.
 
 %prep
 %setup -q -n pykickstart-%{version}
@@ -30,5 +35,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README ChangeLog COPYING docs/programmers-guide
-%{py_sitescriptdir}/pykickstart
 %attr(755,root,root) %{_bindir}/ksvalidator
+%{py_sitescriptdir}/pykickstart

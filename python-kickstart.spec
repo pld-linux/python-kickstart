@@ -34,6 +34,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README ChangeLog COPYING docs/programmers-guide
+%doc README ChangeLog docs/programmers-guide
 %attr(755,root,root) %{_bindir}/ksvalidator
 %{py_sitescriptdir}/pykickstart

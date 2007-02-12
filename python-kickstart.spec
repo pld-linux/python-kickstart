@@ -1,5 +1,5 @@
 Summary:	A Python library for manipulating kickstart files
-Summary(pl.UTF-8):   Pythonowa biblioteka do obróbki plików kickstart
+Summary(pl.UTF-8):	Pythonowa biblioteka do obróbki plików kickstart
 Name:		python-kickstart
 Version:	0.23
 Release:	1

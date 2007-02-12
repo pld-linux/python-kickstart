@@ -1,5 +1,5 @@
 Summary:	A Python library for manipulating kickstart files
-Summary(pl):	Pythonowa biblioteka do obr骲ki plik體 kickstart
+Summary(pl.UTF-8):   Pythonowa biblioteka do obr贸bki plik贸w kickstart
 Name:		python-kickstart
 Version:	0.23
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The pykickstart package is a Python library for manipulating kickstart
 files.
 
-%description -l pl
-Pakiet pykickstart to pythonowa biblioteka do obr骲ki plik體
+%description -l pl.UTF-8
+Pakiet pykickstart to pythonowa biblioteka do obr贸bki plik贸w
 kickstart.
 
 %prep

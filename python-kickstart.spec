@@ -1,12 +1,12 @@
 Summary:	A Python library for manipulating kickstart files
 Summary(pl.UTF-8):	Pythonowa biblioteka do obróbki plików kickstart
 Name:		python-kickstart
-Version:	1.23
+Version:	1.42
 Release:	1
 License:	GPL
 Group:		Libraries/Python
 Source0:	pykickstart-%{version}.tar.gz
-# Source0-md5:	8c2b43ed43809658577ab188b435634d
+# Source0-md5:	3761b1e456c1dba745af1e44681829b7
 BuildRequires:	python-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

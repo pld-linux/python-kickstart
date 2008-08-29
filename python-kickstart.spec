@@ -7,6 +7,7 @@ License:	GPL
 Group:		Libraries/Python
 Source0:	pykickstart-%{version}.tar.gz
 # Source0-md5:	3761b1e456c1dba745af1e44681829b7
+BuildRequires:	gettext-devel
 BuildRequires:	python-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,7 +26,7 @@ kickstart.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install \
+%{__python} setup.py install \
 	--root=$RPM_BUILD_ROOT
 %py_postclean
 

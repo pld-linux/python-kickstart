@@ -5,8 +5,10 @@ Version:	1.42
 Release:	1
 License:	GPL
 Group:		Libraries/Python
+# https://fedorahosted.org/releases/p/y/pykickstart/ (not yet)
 Source0:	pykickstart-%{version}.tar.gz
 # Source0-md5:	3761b1e456c1dba745af1e44681829b7
+URL:		http://fedoraproject.org/wiki/Pykickstart
 BuildRequires:	gettext-devel
 BuildRequires:	python-devel
 BuildArch:	noarch

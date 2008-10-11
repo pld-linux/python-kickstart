@@ -1,13 +1,13 @@
 Summary:	A Python library for manipulating kickstart files
 Summary(pl.UTF-8):	Pythonowa biblioteka do obróbki plików kickstart
 Name:		python-kickstart
-Version:	1.42
-Release:	2
+Version:	1.44
+Release:	1
 License:	GPL
 Group:		Libraries/Python
 # https://fedorahosted.org/releases/p/y/pykickstart/ (not yet)
 Source0:	pykickstart-%{version}.tar.gz
-# Source0-md5:	3761b1e456c1dba745af1e44681829b7
+# Source0-md5:	600f1cda9038be2de7d0f3de5e53a44f
 URL:		http://fedoraproject.org/wiki/Pykickstart
 BuildRequires:	gettext-devel
 BuildRequires:	python-devel

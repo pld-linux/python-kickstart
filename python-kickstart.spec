@@ -40,4 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README docs/programmers-guide
 %attr(755,root,root) %{_bindir}/ksflatten
 %attr(755,root,root) %{_bindir}/ksvalidator
+%attr(755,root,root) %{_bindir}/ksverdiff
+%{py_sitescriptdir}/pykickstart-%{version}-py*.egg-info
 %{py_sitescriptdir}/pykickstart

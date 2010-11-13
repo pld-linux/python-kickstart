@@ -2,7 +2,7 @@ Summary:	A Python library for manipulating kickstart files
 Summary(pl.UTF-8):	Pythonowa biblioteka do obróbki plików kickstart
 Name:		python-kickstart
 Version:	1.50
-Release:	2
+Release:	3
 License:	GPL
 Group:		Libraries/Python
 # https://fedorahosted.org/releases/p/y/pykickstart/ (not yet)

@@ -11,6 +11,8 @@ Source0:	pykickstart-%{version}.tar.gz
 URL:		http://fedoraproject.org/wiki/Pykickstart
 BuildRequires:	gettext-devel
 BuildRequires:	python-devel
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

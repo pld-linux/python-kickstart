@@ -9,7 +9,7 @@ Group:		Libraries/Python
 Source0:	pykickstart-%{version}.tar.gz
 # Source0-md5:	a323c2d1242e7dd1ef4e0bb46f0eacb7
 URL:		http://fedoraproject.org/wiki/Pykickstart
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	python-devel
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
